@@ -58,12 +58,13 @@ CHANGELOG.md
 # Casper generated files
 /core/test/functional/*.png
 
-config.js
-/core/client/config.js
+# Commented out for Azure setup
+# config.js
+# /core/client/config.js
 
 # Built asset files
-/core/built
-/core/client/assets/css
+# /core/built             # azure setup
+# /core/client/assets/css # azure setup
 /core/client/assets/img/contributors/
 /core/client/docs/dist/css
 /core/client/templates/-contributors.hbs
