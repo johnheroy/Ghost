@@ -13,11 +13,12 @@ config = {
         url: 'http://johnheroy.azurewebsites.net/',
         mail: {},
         database: {
-            client: 'sqlite3',
+            client: 'mysql',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
-            },
-            debug: false
+                host     : 'localhost',
+                database : 'johnherAD7OvxBKX',
+                charset  : 'utf8'
+            }
         },
 
         server: {
